@@ -3,10 +3,10 @@
 
 constexpr int L1 = 6;  // Yellow
 constexpr int L2 = 10; // Orange
-constexpr int R1 = 18; // Green
-constexpr int R2 = 19; // Gray
+constexpr int R1 = 0;  // Green
+constexpr int R2 = 1;  // Gray
 
-constexpr int DELAY = 1000;
+constexpr int DELAY = 500;
 
 const char *ssid = "ESP32";
 const char *password = "12345678";
